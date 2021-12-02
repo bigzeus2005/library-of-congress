@@ -1,5 +1,5 @@
 var searchFormEl = document.querySelector('#searchBar');
-var searchTypeEl = document.querySelector('.dropdown');
+var searchTypeEl = document.querySelector('.select-dropdown');
 var submitBtnEl = document.querySelector('.btn-primary');
 // var goBackBtnEl = document.querySelector(); // TODO add class/id for this
 var resultContainerEl = document.querySelector('#results-container');
