@@ -26,9 +26,9 @@ var formSubmitHandler = function (event) {
 };
 
 var showResultsPage = function (keyword, type) {
-    if (window.location.href === "./index.html") {
+    //if (window.location.href === "./index.html") {
         window.location = `./search-results.html/?q=${keyword}${type}`;
-    };
+    //};
 };
 
 var runSearch = function (searchUrl) {
