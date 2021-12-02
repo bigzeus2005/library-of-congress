@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color:darkslategray;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    justify-content: top;
+    justify-content: flex-start;
+    float: left;
+    background-color: white;
+    color: darkslategray;  
+  }
+
+  .select-dropdown {
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+
+  .searchBtn {
+    background-color: forestgreen;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .backBtn {
+    background-color: red;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+  }
+  
